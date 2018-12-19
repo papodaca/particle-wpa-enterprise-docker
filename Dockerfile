@@ -20,6 +20,9 @@ RUN apt-get update && \
 # Copy distribution files
 COPY files/ /
 
+# Rehash certificates
+RUN c_rehash /etc/freeradius/certs
+
 # Expose FreeRADIUS
 EXPOSE 1812/udp 1813/udp
 
