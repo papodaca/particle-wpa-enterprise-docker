@@ -34,7 +34,7 @@ CA: certs/ca.crt
 ```
 
 ```
-Client certificate: certs/client2_fullchain.crt
+Client certificate: certs/client2.crt
 Private key: certs/client2.key
 CA: certs/ca.crt
 ```
